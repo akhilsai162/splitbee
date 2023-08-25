@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+}
+.triangle{
+    width: 0;
+      height: 0;
+      border-left: 15px solid transparent; /* Adjust size as needed */
+      border-right: 15px solid transparent; /* Adjust size as needed */
+      border-bottom: 25px solid white; /* Adjust size and color as needed */
+}
+
+.links:visited{
+    color: black;
+}
+.grade{
+    height: 500px;
+    width: auto;
+    background-image: linear-gradient(rgb(250, 247, 247),rgb(169, 170, 169));
+}
+.userview{
+    position: absolute;
+    z-index: 1;
+    top: 605px;
+    right:400px;
+    border-radius: 10px;
+    border-style:groove;
+    transform: rotate(2deg);
+    
+}
+.love{
+    height: 700px;
+    width: auto;
+    background-image: linear-gradient(rgb(235, 235, 235),rgb(235, 235, 235));
+    
+}
+.para{
+    margin-left:-70px;
+}
+.footer{
+    height: 500px;
+    margin-top: 400px;
+    background-image: linear-gradient(rgb(101, 62, 30),rgb(43, 19, 19),black);
+    
+}
+.honey{
+    height: 300px;
+    width: 1150px;
+    z-index: 1;
+   
+   position: relative;
+   right: -180px;
+   bottom: 130px;
+   border-radius: 12px;
+    background-image: linear-gradient(to right, rgb(252, 138, 45),rgb(255, 172, 77),rgb(255, 216, 98));
+    
+}
